@@ -1,0 +1,77 @@
+.carosel-text-container{
+    margin-bottom: 80px;
+}
+.carosel-heading{
+    font-size: 80px;
+    margin-bottom: 5rem;
+}
+.carosel-sub-head{
+    font-size: 60px;
+    margin-bottom: 3rem;
+
+}
+.carosel-button{
+    margin-right: 3rem;
+}
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.read-button {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.btn-hover.contact-button {
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+
+
+@media only screen and (max-width:780px){
+    
+    .carosel-text-container{
+        margin-bottom: 0px;
+    }
+    .carosel-heading{
+        font-size: 25px;
+    margin-bottom: 1rem;
+
+    }
+    .carosel-sub-head{
+        font-size: 15px;
+        margin-bottom: 0rem;
+    
+    }
+    .carosel-button{
+    }
+    
+    .btn-hover {
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+
+    }
+    
+}

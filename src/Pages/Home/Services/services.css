@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&family=Kanit:wght@300&family=Ubuntu:wght@300;400&display=swap');
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items:center;
+    grid-gap: 20px;
+}
+.service-text{
+    font-family: 'Kanit', sans-serif;
+}
+@media only screen and (max-width:760px){
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items:center;
+        grid-gap: 20px;
+    }   
+}
